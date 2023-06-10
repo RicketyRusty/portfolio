@@ -56,11 +56,12 @@ function Carousel() {
             <li key={project.id}>
             <ProjectCard
               key={project.id}
-              img={project.imageSrc}
+              type={project.type}
               name={project.title}
               description={project.description}
               onClick={() => window.open(project.url)}
               tags={project.tags}
+              links={project.links}
             />
             </li>
           )
