@@ -96,11 +96,6 @@
           "url": "https://github.com/RicketyRusty"
         },
         {
-          "id": "2",
-          "title": "Documentation",
-          "url": "https://google.com"
-        },
-        {
           "id": "3",
           "title": "Host",
           "url": "https://bing.com"
@@ -117,11 +112,6 @@
       "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
       "links":[
         {
-          "id": "1",
-          "title": "Github",
-          "url": "https://github.com/RicketyRusty"
-        },
-        {
           "id": "2",
           "title": "Documentation",
           "url": "https://google.com"
@@ -137,22 +127,22 @@
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
+      "title": "Backend Development",
       "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
     },
     {
       "id": "2",
-      "title": "Branding",
+      "title": "Cloud Infrastructure",
       "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
     },
     {
       "id": "3",
-      "title": "Web Design",
+      "title": "Blockchain Technology",
       "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
     },
     {
       "id": "4",
-      "title": "3D Design",
+      "title": "Automation and Profiling",
       "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
     }
   ],

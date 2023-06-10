@@ -72,9 +72,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={() => router.push("/resume")}
+                      classes="first:ml-1"
                     >
                       Get Resume
                     </Button>
