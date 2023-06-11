@@ -6,12 +6,12 @@ import Button from "./Button";
 // Local Data
 import data from "../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll}) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name } = data;
 
   useEffect(() => {
     setMounted(true);
@@ -69,8 +69,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={handleWorkScroll}>Projects</Button>   
                     <Button
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
@@ -101,8 +101,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
             <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>Projects</Button>
             <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
