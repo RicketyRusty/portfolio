@@ -77,6 +77,7 @@ body {
   border-radius: inherit;
 }
 
+/* Deprecated Carousel CSS
 .card {
   min-height: 25rem; ;
   min-width: 45rem;
@@ -91,6 +92,7 @@ body {
 .outer {
   overflow: hidden;
 }
+*/
 
 ul.projectList {
   display: flex;
@@ -99,29 +101,6 @@ ul.projectList {
   padding: 20px 0;
   flex: 0 0 600px;
   margin: 0 auto;
-}
-
-li.projectListItem {
-  min-height: 25rem; ;
-  min-width: 45rem;
-  padding: 40px;
-  margin: auto;
-}
-
-::-webkit-scrollbar {
-  height: 10px;
-  width: 5px;
-  background: #fff3;
-  -webkit-border-radius: 1ex;
-}
-
-::-webkit-scrollbar-thumb {
-  background: whitesmoke;
-  -webkit-border-radius: 1ex;
-}
-
-::-webkit-scrollbar-corner {
-  background: #fff3;
 }
 
 .draggable {
@@ -140,3 +119,21 @@ li.projectListItem {
 .draggable li.projectListItem:active {
   cursor: grabbing;
 }
+
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 5px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+

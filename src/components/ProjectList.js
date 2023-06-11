@@ -90,16 +90,16 @@ function Carousel() {
       <ul ref={listRef} className="draggable projectList">
       {data.projects && data.projects.map((project) => {
           return (
-            <li key={project.id} className="projectListItem">
-            <ProjectCard
-              key={project.id}
-              type={project.type}
-              name={project.title}
-              description={project.description}
-              onClick={() => window.open(project.url)}
-              tags={project.tags}
-              links={project.links}
-            />
+            <li key={project.id} className="projectListItem p-2 tablet:p-6 laptop:p-10">
+              <ProjectCard
+                key={project.id}
+                type={project.type}
+                name={project.title}
+                description={project.description}
+                onClick={() => window.open(project.url)}
+                tags={project.tags}
+                links={project.links}
+              />
             </li>
           )
         })}
