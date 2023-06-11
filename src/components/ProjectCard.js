@@ -12,7 +12,7 @@ const ProjectCard = ({ type, name, description, onClick, tags, links }) => {
   }, []);
 
   return (
-    <div className={`w-[20rem] laptop:w-[40rem] mob:w-[20rem] overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link 
+    <div className={`w-[20rem] laptop:w-[40rem] overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link 
       border border-b-4 border-slate-700 shadow-lg hover:shadow-xl 
       transition-all ease-out duration-300 hover:scale-105 link 
       ${mounted && theme === "dark" ? "hover:bg-neutral-950" : "hover:bg-slate-50"}`}
