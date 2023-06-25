@@ -109,6 +109,7 @@ export default function Home() {
                 key={index}
                 name={service.title}
                 description={service.description}
+                skills={service.skills}
               />
             ))}
           </div>
