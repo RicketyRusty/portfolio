@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className={`relative`}>
       <Head>
-        <title>{data.name}</title>
+        <title>Anamitra Saikia</title>
       </Head>
 
       <div className="gradient-circle"></div>
@@ -94,7 +94,7 @@ export default function Home() {
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Projects.</h1>
           <div>
-            <ProjectList/>
+            <ProjectList projects={data.projects}/>
           </div>
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0">

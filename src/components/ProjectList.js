@@ -1,9 +1,7 @@
 import { useRef, useEffect} from "react";
 import ProjectCard from "./ProjectCard";
 
-import data from "../data/portfolio.json";
-
-function Carousel() {
+function Carousel({projects}) {
 
   const listRef = useRef(null);
   
@@ -88,7 +86,7 @@ function Carousel() {
   return(
     <>
       <ul ref={listRef} className="draggable projectList">
-      {data.projects && data.projects.map((project) => {
+      {projects && projects.map((project) => {
           return (
             <li key={project.id} className="projectListItem p-2 tablet:p-6 laptop:p-10">
               <ProjectCard
