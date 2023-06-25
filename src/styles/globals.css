@@ -8,7 +8,7 @@
 }
 
 body {
-  @apply dark:bg-black dark:text-white;
+  @apply bg-white dark:bg-dark-material dark:text-white  opacity-[0.87];
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -77,6 +77,7 @@ body {
   border-radius: inherit;
 }
 
+/* Deprecated Carousel CSS
 .card {
   min-height: 25rem; ;
   min-width: 45rem;
@@ -91,37 +92,15 @@ body {
 .outer {
   overflow: hidden;
 }
+*/
 
-ul {
+ul.projectList {
   display: flex;
   list-style: none;
   overflow-x: scroll;
   padding: 20px 0;
   flex: 0 0 600px;
   margin: 0 auto;
-}
-
-li {
-  min-height: 25rem; ;
-  min-width: 45rem;
-  padding: 40px;
-  margin: auto;
-}
-
-::-webkit-scrollbar {
-  height: 10px;
-  width: 5px;
-  background: #fff3;
-  -webkit-border-radius: 1ex;
-}
-
-::-webkit-scrollbar-thumb {
-  background: whitesmoke;
-  -webkit-border-radius: 1ex;
-}
-
-::-webkit-scrollbar-corner {
-  background: #fff3;
 }
 
 .draggable {
@@ -131,12 +110,35 @@ li {
   -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
 }
 
-.draggable li {
+.draggable li.projectListItem {
   cursor: grab;
   user-select: none;
   touch-action: pan-y;
 }
 
-.draggable li:active {
+.draggable li.projectListItem:active {
   cursor: grabbing;
 }
+
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 5px;
+  background: rgba(75, 85, 99, 0.1);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgba(156, 163, 175, 0.4);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(156, 163, 175, 0.8);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+

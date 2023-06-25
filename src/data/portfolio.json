@@ -2,10 +2,9 @@
   "name": "Anamitra",
   "headerTaglineOne": "Hello 👋",
   "headerTaglineTwo": "I'm Anamitra Saikia",
-  "headerTaglineThree": "curious software devloper",
+  "headerTaglineThree": "curious software developer",
   "headerTaglineFour": " based in India.",
   "darkMode": true,
-  "showResume": true,
   "socials": [
     {
       "id": "1",
@@ -15,15 +14,10 @@
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://github.com/RicketyRusty"
+      "link": "https://www.linkedin.com/in/anamitra-saikia/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://github.com/RicketyRusty"
-    },
-    {
-      "id": "5",
       "title": "Email",
       "link": "mailto:hello@chetanverma.com"
     }
@@ -31,38 +25,28 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "type": "Backend",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "title": "Github Repository Creator",
+      "type": "Backend Development",
+      "description": "This application enables users to log in using their GitHub account and effortlessly create a repository accompanied by a sample file. Authentication is achieved through GitHub OAuth, while request authentication utilizes JSON Web Token (JWT). The application requires 'public profile', 'repo', and 'workflow' permissions from the user. User data is stored using PostgresDB/SQLite for efficient data management.",
       "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"Typescript"}, {"id": 2, "name":"NestJs"}, {"id": 3, "name":"Postgres"}, {"id": 4, "name":"JWT Authentication"},{"id": 5, "name":"Oauth"},  {"id": 6, "name":"Docker"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty"
-        },
-        {
-          "id": "2",
-          "title": "Documentation",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
-          "title": "Host",
-          "url": "https://bing.com"
+          "url": "https://github.com/RicketyRusty/Create-Repo-githubapp"
         }
       ]
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "type": "Backend",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "title": "Portfolio Website",
+      "type": "Frontend Development",
+      "description": "My portfolio website, hosted on a robust platform, showcases my work and expertise. Built with React and Next.js, it features captivating animations using Framer Motion and GSAP. Visitors can explore detailed information about me, including my skills, projects, and achievements, for an engaging and informative experience.",
       "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"NextJs"}, {"id": 3, "name":"Framer Motion"}],
       "links":[
         {
           "id": "1",
@@ -71,65 +55,45 @@
         },
         {
           "id": "2",
-          "title": "Documentation",
+          "title": "Document",
           "url": "https://google.com"
         },
         {
           "id": "3",
-          "title": "Host",
+          "title": "Webhost",
           "url": "https://bing.com"
         }
       ]
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "type": "Backend",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "title": "Single Image Super Resolution Using GAN",
+      "type": "Machine Learning",
+      "description": "Developed cutting-edge Generative Adversarial Network (GAN) model for transforming low-resolution images into high-resolution ones. Our GAN incorporates a powerful custom loss function, resulting in improved realism and convenience compared to previous models like SRResNet and SRCNN. Furthermore, our approach boasts a remarkable 3x faster runtime. In terms of user satisfaction, our GAN achieved an outstanding Mean Opinion Score of 4.11 out of 5, surpassing SRResNet (2.98/5) and SRCNN (2.33/5).",
       "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [ {"id": 1, "name":"Python"}, {"id": 2, "name":"GAN"}, {"id": 3, "name":"Deep Learning"}, {"id": 4, "name":"Image Processing"}],
       "links":[
         {
           "id": "1",
-          "title": "Github",
+          "title": "Document",
           "url": "https://github.com/RicketyRusty"
-        },
-        {
-          "id": "2",
-          "title": "Documentation",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
-          "title": "Host",
-          "url": "https://bing.com"
         }
       ]
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "type": "Backend",
-      "description": "Marketing",
+      "title": "Insurance Blockchain",
+      "type": "Backend Development",
+      "description": "Developed a blockchain-based health insurance system using smart contracts to ensure secure and transparent transactions. By implementing insurance policies through minimal proxy, it achieved a remarkable 98% reduction in size and an 85% decrease in deployment costs compared to traditional contract deployment methods. Additionally, developing a payment processor capable of handling payments in ERC20 stablecoins.",
       "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"Ethereum Networks"}, {"id": 2, "name":"Smart Contract"}, {"id": 3, "name":"TruffleJs"}, {"id": 4, "name":"Web3Js"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty"
-        },
-        {
-          "id": "2",
-          "title": "Documentation",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
-          "title": "Host",
-          "url": "https://bing.com"
+          "url": "https://github.com/RicketyRusty/Insurance-Blockchain"
         }
       ]
     }
@@ -137,66 +101,28 @@
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Backend Development",
+      "description": "Software backend development for Web Application and Microservices in Java and NodeJs.",
+      "skills": [{"id":"1", "title":"Languages", "data":"Java, Javascript, Typescript"}, {"id":"2","title":"Frameworks","data":"ExpressJs, NestJs"}, {"id":"3","title":"Tech Stack","data":"Database (PostgresDB, MongoDB, Redis), API (REST, GraphQL, gRPC)"}, {"id":"4","title":"Cloud Infrastructure","data":"AWS, GCP, Docker, Kubernetes, Terarform"}]
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Frontend Development",
+      "description": "Frontend development for Web Application using React and fundamental UI/UX design.",
+      "skills": [{"id":"1", "title":"Languages", "data":"Javascript, Typescript, HTML, CSS"}, {"id":"2","title":"Frameworks","data":"React, NextJs, TailwindCSS, Framer Motion"}, {"id":"3","title":"Design","data":"Figma"}]
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Blockchain Technology",
+      "description": "Smart Contract and DApp development on Ethereum Network and fundamentals of blockchain networks and Cryptocurrencies.",
+      "skills": [{"id":"1", "title":"Languages", "data":"Solidity, Javascript"}, {"id":"2","title":"Frameworks","data":"Truffle, Hardhat, Web3Js, EtherJs"}, {"id":"3","title":"Blockchain","data":"Ethereum, Binance Smart Chain, Hyperledger Fabric"}]
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Automation and Profiling",
+      "description": "Performace Profiling and Automation of tasks using latest tools and technologies.",
+      "skills": [{"id":"1", "title":"Languages", "data":"Java, Javascript"}, {"id":"2","title":"Profiling Tools","data":"JVM Profiler (JMC, VisualVM), Pixie, Jaeger, Load test (ghz, k6)"}, {"id":"3","title":"Automation Frameworks","data":"Selenium, TestNG, Cucumber"}]
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-    "experiences": [
-      {
-        "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
-      },
-      {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
-      }
-    ],
-    "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
-    "languages": [
-      "Javascript",
-      "HTML5",
-      "CSS",
-      "Python",
-      "Go"
-    ],
-    "frameworks": [
-      "React",
-      "Typescript",
-      "NodeJs"
-    ],
-    "others": [
-      "Figma",
-      "AdobeXD",
-      "AWS"
-    ]
-  }
+  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 }

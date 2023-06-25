@@ -7,13 +7,17 @@ module.exports = {
   darkMode: "class",
   theme: {
     screens: {
-      mob: "375px",
+      mob: "350px",
       tablet: "768px",
       laptop: "1024px",
       desktop: "1280px",
       laptopl: "1440px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-material':'#121212',
+      }
+    },
   },
   plugins: [],
 };
