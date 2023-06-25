@@ -13,7 +13,11 @@ module.exports = {
       desktop: "1280px",
       laptopl: "1440px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-material':'#121212',
+      }
+    },
   },
   plugins: [],
 };

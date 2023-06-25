@@ -8,7 +8,7 @@
 }
 
 body {
-  @apply dark:bg-black dark:text-white;
+  @apply bg-white dark:bg-dark-material dark:text-white  opacity-[0.87];
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -124,12 +124,17 @@ ul.projectList {
 ::-webkit-scrollbar {
   height: 10px;
   width: 5px;
-  background: #fff3;
+  background: rgba(75, 85, 99, 0.1);
   -webkit-border-radius: 1ex;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: whitesmoke;
+  background:rgba(156, 163, 175, 0.4);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(156, 163, 175, 0.8);
   -webkit-border-radius: 1ex;
 }
 

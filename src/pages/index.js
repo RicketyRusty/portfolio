@@ -25,7 +25,7 @@ export default function Home() {
   // Handling Scroll
   const handleWorkScroll = () => {
     window.scrollTo({
-      top: workRef.current.offsetTop - 50,
+      top: workRef.current.offsetTop - 30,
       left: 0,
       behavior: "smooth",
     });
@@ -33,7 +33,7 @@ export default function Home() {
 
   const handleAboutScroll = () => {
     window.scrollTo({
-      top: aboutRef.current.offsetTop - 50,
+      top: aboutRef.current.offsetTop - 30,
       left: 0,
       behavior: "smooth",
     });
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">{data.aboutpara}</p>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5 opacity-70">{data.aboutpara}</p>
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Projects.</h1>

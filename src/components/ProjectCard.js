@@ -19,7 +19,7 @@ const ProjectCard = ({ type, name, description, onClick, tags, links }) => {
     >
       <div className="p-4 rounded-lg flex items-center">
         <img className="w-8 h-8 mr-4 flex-shrink-0" src={theme === "dark" ? `/icons/${type}_dark.png` : `/icons/${type}.png`}></img>
-        <p className="text-gray-400 text-xl font-thin">
+        <p className="text-xl font-thin opacity-70">
           {type ? type : "Project"}
         </p>
       </div>
@@ -28,7 +28,7 @@ const ProjectCard = ({ type, name, description, onClick, tags, links }) => {
           {name ? name : "Project Name"}
         </h1>
       </div>
-      <h2 className="text-xl opacity-50">
+      <h2 className="text-xl opacity-70">
         {description ? description : "Description"}
       </h2>
       <div className="px-2 pt-4 pb-2">
