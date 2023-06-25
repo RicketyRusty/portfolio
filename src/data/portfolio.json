@@ -5,7 +5,6 @@
   "headerTaglineThree": "curious software developer",
   "headerTaglineFour": " based in India.",
   "darkMode": true,
-  "showResume": true,
   "socials": [
     {
       "id": "1",
@@ -15,15 +14,10 @@
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://github.com/RicketyRusty"
+      "link": "https://www.linkedin.com/in/anamitra-saikia/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://github.com/RicketyRusty"
-    },
-    {
-      "id": "5",
       "title": "Email",
       "link": "mailto:hello@chetanverma.com"
     }
@@ -31,38 +25,28 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
+      "title": "Github Repository Creator",
       "type": "Backend Development",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "description": "This application enables users to log in using their GitHub account and effortlessly create a repository accompanied by a sample file. Authentication is achieved through GitHub OAuth, while request authentication utilizes JSON Web Token (JWT). The application requires 'public profile', 'repo', and 'workflow' permissions from the user. User data is stored using PostgresDB/SQLite for efficient data management.",
       "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"Typescript"}, {"id": 2, "name":"NestJs"}, {"id": 3, "name":"Postgres"}, {"id": 4, "name":"JWT Authentication"},{"id": 5, "name":"Oauth"},  {"id": 6, "name":"Docker"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty"
-        },
-        {
-          "id": "2",
-          "title": "Document",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
-          "title": "Webhost",
-          "url": "https://bing.com"
+          "url": "https://github.com/RicketyRusty/Create-Repo-githubapp"
         }
       ]
     },
     {
       "id": "2",
-      "title": "Project Two",
+      "title": "Portfolio Website",
       "type": "Frontend Development",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "description": "My portfolio website, hosted on a robust platform, showcases my work and expertise. Built with React and Next.js, it features captivating animations using Framer Motion and GSAP. Visitors can explore detailed information about me, including my skills, projects, and achievements, for an engaging and informative experience.",
       "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"NextJs"}, {"id": 3, "name":"Framer Motion"}],
       "links":[
         {
           "id": "1",
@@ -83,43 +67,33 @@
     },
     {
       "id": "3",
-      "title": "Project Three",
+      "title": "Single Image Super Resolution Using GAN",
       "type": "Machine Learning",
-      "description": "This application allows users to log in with their GitHub account and create a repository with a sample file using the application. It uses GitHub OAuth for authentication and JSON Web Token (JWT) for request authentication. It requires 'public profile', 'repo', and 'workflow' permission from the user. PostgresDB/SQLite for user data storage.",
+      "description": "Developed cutting-edge Generative Adversarial Network (GAN) model for transforming low-resolution images into high-resolution ones. Our GAN incorporates a powerful custom loss function, resulting in improved realism and convenience compared to previous models like SRResNet and SRCNN. Furthermore, our approach boasts a remarkable 3x faster runtime. In terms of user satisfaction, our GAN achieved an outstanding Mean Opinion Score of 4.11 out of 5, surpassing SRResNet (2.98/5) and SRCNN (2.33/5).",
       "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [ {"id": 1, "name":"Python"}, {"id": 2, "name":"GAN"}, {"id": 3, "name":"Deep Learning"}, {"id": 4, "name":"Image Processing"}],
       "links":[
         {
           "id": "1",
-          "title": "Github",
+          "title": "Document",
           "url": "https://github.com/RicketyRusty"
-        },
-        {
-          "id": "3",
-          "title": "Webhost",
-          "url": "https://bing.com"
         }
       ]
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "type": "Fullstack Development",
-      "description": "Marketing",
+      "title": "Insurance Blockchain",
+      "type": "Backend Development",
+      "description": "Developed a blockchain-based health insurance system using smart contracts to ensure secure and transparent transactions. By implementing insurance policies through minimal proxy, it achieved a remarkable 98% reduction in size and an 85% decrease in deployment costs compared to traditional contract deployment methods. Additionally, developing a payment processor capable of handling payments in ERC20 stablecoins.",
       "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/RicketyRusty",
-      "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"Gatsby"}, {"id": 3, "name":"React"}, {"id": 4, "name":"React"}],
+      "tags" : [{"id": 1, "name":"Ethereum Networks"}, {"id": 2, "name":"Smart Contract"}, {"id": 3, "name":"TruffleJs"}, {"id": 4, "name":"Web3Js"}],
       "links":[
         {
-          "id": "2",
-          "title": "Document",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
-          "title": "Webhost",
-          "url": "https://bing.com"
+          "id": "1",
+          "title": "Github",
+          "url": "https://github.com/RicketyRusty/Insurance-Blockchain"
         }
       ]
     }
