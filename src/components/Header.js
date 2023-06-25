@@ -39,7 +39,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                   >
                     <img
                       className="h-6"
-                      src={`/images/${
+                      src={`./images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
                     ></img>
@@ -49,7 +49,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                 <Popover.Button>
                   <img
                     className="h-5"
-                    src={`/images/${
+                    src={`./images/${
                       !open
                         ? theme === "dark"
                           ? "menu-white.svg"
@@ -78,7 +78,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                       Get Resume
                     </Button>
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:anamitra.vkv@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -110,7 +110,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                 Get Resume
               </Button>
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:anamitra.vkv@gmail.com")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -119,7 +119,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
               >
                 <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`./images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
