@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { delay, motion } from 'framer-motion';
-import { Example } from '@/components/TextLoop';
 
 const AnimatedSVG = () => {
 

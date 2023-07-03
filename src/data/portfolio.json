@@ -9,7 +9,7 @@
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/RicketyRusty"
+      "link": "https://github.com/anamitra-saikia"
     },
     {
       "id": "2",
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "title": "Email",
-      "link": "mailto:hello@chetanverma.com"
+      "link": "mailto:anamitra.vkv@gmail.com"
     }
   ],
   "projects": [
@@ -27,41 +27,42 @@
       "id": "1",
       "title": "Github Repository Creator",
       "type": "Backend Development",
-      "description": "This application enables users to log in using their GitHub account and effortlessly create a repository accompanied by a sample file. Authentication is achieved through GitHub OAuth, while request authentication utilizes JSON Web Token (JWT). The application requires 'public profile', 'repo', and 'workflow' permissions from the user. User data is stored using PostgresDB/SQLite for efficient data management.",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/RicketyRusty",
+      "description": "Developed an application enabling users to log in through their GitHub accounts and create repositories with sample files seamlessly. The app utilizes GitHub OAuth for user authentication and JSON Web Token (JWT) for request authentication, ensuring secure interactions. User data is stored using PostgresDB/SQLite, while the application requires 'public profile', 'repo', and 'workflow' permissions from the user.",
+      "imageSrc": "",
+      "url": "",
       "tags" : [{"id": 1, "name":"Typescript"}, {"id": 2, "name":"NestJs"}, {"id": 3, "name":"Postgres"}, {"id": 4, "name":"JWT Authentication"},{"id": 5, "name":"Oauth"},  {"id": 6, "name":"Docker"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty/Create-Repo-githubapp"
+          "url": "https://github.com/anamitra-saikia/Create-Repo-githubapp"
+        },
+        {
+          "id": "2",
+          "title": "Webhost",
+          "url": "https://create-repo-github.fly.dev/"
         }
+        
       ]
     },
     {
       "id": "2",
       "title": "Portfolio Website",
       "type": "Frontend Development",
-      "description": "My portfolio website, hosted on a robust platform, showcases my work and expertise. Built with React and Next.js, it features captivating animations using Framer Motion and GSAP. Visitors can explore detailed information about me, including my skills, projects, and achievements, for an engaging and informative experience.",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/RicketyRusty",
+      "description": "Crafted a captivating developer portfolio website utilizing React and Next.js, complemented by the aesthetic styling of Tailwind CSS. The site incorporates engaging animations powered by GSAP and Framer Motion libraries. Data is fetched from a local storage JSON file, resulting in seamless content updates and enhanced user experience.",
+      "imageSrc": "",
+      "url": "",
       "tags" : [{"id": 1, "name":"React"}, {"id": 2, "name":"NextJs"}, {"id": 3, "name":"Framer Motion"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty"
+          "url": "https://github.com/anamitra-saikia/portfolio"
         },
         {
           "id": "2",
-          "title": "Document",
-          "url": "https://google.com"
-        },
-        {
-          "id": "3",
           "title": "Webhost",
-          "url": "https://bing.com"
+          "url": "https://anamitra-saikia.github.io/portfolio/"
         }
       ]
     },
@@ -69,31 +70,31 @@
       "id": "3",
       "title": "Single Image Super Resolution Using GAN",
       "type": "Machine Learning",
-      "description": "Developed cutting-edge Generative Adversarial Network (GAN) model for transforming low-resolution images into high-resolution ones. Our GAN incorporates a powerful custom loss function, resulting in improved realism and convenience compared to previous models like SRResNet and SRCNN. Furthermore, our approach boasts a remarkable 3x faster runtime. In terms of user satisfaction, our GAN achieved an outstanding Mean Opinion Score of 4.11 out of 5, surpassing SRResNet (2.98/5) and SRCNN (2.33/5).",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/RicketyRusty",
+      "description": "Developed a cutting-edge GAN solution for transforming low-resolution images to high-resolution with unparalleled realism. The optimized GAN with more robust custom loss function and an overall efficient approach model surpasses SRResNet and SRCNN, delivering 3x faster processing. It also earned a Mean Opinion Score of 4.11 (out of 5) compared to SRResNet (2.98/5) and SRCNN (2.33/5), affirming its superior image enhancement capabilities.",
+      "imageSrc": "",
+      "url": "",
       "tags" : [ {"id": 1, "name":"Python"}, {"id": 2, "name":"GAN"}, {"id": 3, "name":"Deep Learning"}, {"id": 4, "name":"Image Processing"}],
       "links":[
         {
           "id": "1",
           "title": "Document",
-          "url": "https://github.com/RicketyRusty"
+          "url": "https://drive.google.com/file/d/1Bdz0ITfW35Uf6e-ARR1_3mbjiGXXabAs/view?usp=sharing"
         }
       ]
     },
     {
       "id": "4",
-      "title": "Insurance Blockchain",
+      "title": "Insurance using Blockchain",
       "type": "Backend Development",
-      "description": "Developed a blockchain-based health insurance system using smart contracts to ensure secure and transparent transactions. By implementing insurance policies through minimal proxy, it achieved a remarkable 98% reduction in size and an 85% decrease in deployment costs compared to traditional contract deployment methods. Additionally, developing a payment processor capable of handling payments in ERC20 stablecoins.",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/RicketyRusty",
+      "description": "Developed blockchain-based health insurance smart contracts, ensuring secure and transparent transactions. Leveraging a minimal proxy approach, the implementation achieved remarkable reductions of 98% in contract size and 85% in deployment costs compared to traditional contract deployment methods. Additionally, currently working on a payment processor to facilitate seamless processing of payments using ERC20 stablecoins.",
+      "imageSrc": "",
+      "url": "https://github.com/anamitra-saikia/Insurance-Blockchain",
       "tags" : [{"id": 1, "name":"Ethereum Networks"}, {"id": 2, "name":"Smart Contract"}, {"id": 3, "name":"TruffleJs"}, {"id": 4, "name":"Web3Js"}],
       "links":[
         {
           "id": "1",
           "title": "Github",
-          "url": "https://github.com/RicketyRusty/Insurance-Blockchain"
+          "url": "https://github.com/anamitra-saikia/Insurance-Blockchain"
         }
       ]
     }
