@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import { basePath } from "next.config";
 import { useRouter } from "next/router";
 export default function Custom404() {
     const router = useRouter();
@@ -9,7 +10,7 @@ export default function Custom404() {
         <div className="flex flex-col items-center justify-center h-screen">
           <p className="pb-8 text-2xl laptop:text-6xl">Error 404 😵‍💫</p>
           <p className="py-8 text-xl laptop:text-4xl">Looks like you've taken a wrong turn</p>
-          <Button type="primary" onClick={() => router.push("/")}>Go To Home</Button>  
+          <Button type="primary" onClick={() => router.push(`${basePath}/`)}>Go To Home</Button>  
         </div>
     </>     
     ) 
