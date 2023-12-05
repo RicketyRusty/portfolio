@@ -18,7 +18,7 @@ const ProjectCard = ({ type, name, description, onClick, tags, links }) => {
       ${mounted && theme === "dark" ? "hover:bg-neutral-900" : "hover:bg-slate-50"}`}
     >
       <div className="p-4 rounded-lg flex items-center">
-        <img className="w-8 h-8 mr-4 flex-shrink-0" src={theme === "dark" ? `./icons/${type}_dark.png` : `./icons/${type}.png`}></img>
+        <img className="w-8 h-8 mr-4 flex-shrink-0" src={theme === "dark" ? `/icons/${type}_dark.png` : `/icons/${type}.png`}></img>
         <p className="text-xl font-thin opacity-70">
           {type ? type : "Project"}
         </p>
