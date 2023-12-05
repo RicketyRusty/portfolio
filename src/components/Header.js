@@ -3,8 +3,6 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
-import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -41,7 +39,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                   >
                     <img
                       className="h-6"
-                      src={`${publicRuntimeConfig.assetPrefix}/images/${
+                      src={`./images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
                     ></img>
@@ -51,7 +49,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
                 <Popover.Button>
                   <img
                     className="h-5"
-                    src={`${publicRuntimeConfig.assetPrefix}/images/${
+                    src={`./images/${
                       !open
                         ? theme === "dark"
                           ? "menu-white.svg"
@@ -122,7 +120,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
               >
                 <img
                   className="h-6"
-                  src={`${publicRuntimeConfig.assetPrefix}/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`./images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
