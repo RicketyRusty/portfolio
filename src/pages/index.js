@@ -1,13 +1,13 @@
 import { useRef } from "react";
-import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
-import Socials from "../components/Socials";
+import Header from "@/components/Header";
+import ServiceCard from "@/components/ServiceCard";
+import Socials from "@/components/Socials";
 import { useIsomorphicLayoutEffect } from "../utils";
-import { stagger } from "../animations";
-import Footer from "../components/Footer";
+import { stagger } from "@/animations";
+import Footer from "@/components/Footer";
 import Head from "next/head";
-import ProjectList from "../components/ProjectList";
-import HelloLoop from "../components/HelloAnimation";
+import ProjectList from "@/components/ProjectList";
+import HelloLoop from "@/components/HelloAnimation";
 
 
 // Local Data

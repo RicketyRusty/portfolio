@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button from "@/components/Button";
 import { useRouter } from "next/router";
 export default function Custom404() {
     const router = useRouter();
