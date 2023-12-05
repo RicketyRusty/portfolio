@@ -104,7 +104,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll}) => {
             <Button onClick={handleAboutScroll}>About</Button>
             <Button onClick={handleWorkScroll}>Projects</Button>
             <Button
-                onClick={() => router.push("/resume")}
+                //onClick={() => router.push("/resume")}
+                onClick={() => window.open("https://drive.google.com/file/d/1gh_yFvsdIugYjN9pbDrrsAAFZxqm9A7-/view?usp=drive_link")}
                 classes="first:ml-1"
               >
                 Get Resume
