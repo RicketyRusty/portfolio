@@ -3,6 +3,8 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 // Local Data
 import data from "../data/portfolio.json";
 
