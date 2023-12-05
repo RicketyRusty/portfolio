@@ -122,9 +122,9 @@
       "id": "4",
       "title": "Automation and Profiling",
       "description": "Performace Profiling and Automation of tasks using latest tools and technologies.",
-      "skills": [{"id":"1", "title":"Languages", "data":"Java, Javascript"}, {"id":"2","title":"Profiling Tools","data":"JVM Profiler (JMC, VisualVM), Pixie, Jaeger, Load test (ghz, k6)"}, {"id":"3","title":"Automation Frameworks","data":"Selenium, TestNG, Cucumber"}]
+      "skills": [{"id":"1", "title":"Languages", "data":"Java, Javascript"}, {"id":"2","title":"Profiling Tools","data":"JVM Profiler (JMC, VisualVM), Pixie, Jaeger"}, {"id":"3","title":"Automation Frameworks","data":"Selenium, TestNG, Cucumber"}]
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  "data_version": "1.0.0"
+  "aboutpara": "I am a computer science graduate from the National Institute of Technology, Silchar. Fueled by a passion for innovation, I've built a robust foundation through challenging projects. Ready to contribute my skills to a vibrant work environment, I bring not just technical expertise but also a commitment to collaboration and effective communication. My education instilled a love for learning and adapting to new challenges. Excited about opportunities that foster continuous growth and allow me to contribute innovative solutions, I am confident in my ability to bring a fresh perspective to any team.",
+  "data_version": "Updated About"
 }
