@@ -5,7 +5,7 @@ import TextLoop from "./TextLoop";
 
 
 const HelloLoop = () => {
-    const data = ["Hello", "Hola", "Bonjour", "Hallo", "Ciao", "こんにちは", "안녕하세요", "Привет", "مرحباً", "नमस्ते"];
+    const data = ["Hello", "नमस्ते", "নমস্কাৰ", "你好", "Hola", "Bonjour", "Hallo", "Ciao", "こんにちは", "안녕하세요", "Привет", "مرحباً"];
 
     const [counter, setCounter] = useState();
     useEffect(() => {
